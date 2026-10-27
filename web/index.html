@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhara Rakshak — Quest for a Greener Bharat</title>
+  <meta name="description" content="Dhara Rakshak: an environmental board game through eight realms. Ancient Wisdom • Modern Knowledge • Brighter Tomorrow.">
+  <link rel="icon" href="assets/shakti.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Icon sprite (24 x 24 grid) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="ic-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.5 2.8h7"/><path d="M10 3v6.2L4.7 18.3A1.8 1.8 0 0 0 6.3 21h11.4a1.8 1.8 0 0 0 1.6-2.7L14 9.2V3"/>
+        <path d="M6.9 15h10.2l1.6 3.1a1 1 0 0 1-.9 1.5H6.2a1 1 0 0 1-.9-1.5z" fill="currentColor" stroke="none" opacity=".6"/>
+      </symbol>
+      <symbol id="ic-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+        <path d="M2 5.5c3.3-1.2 6.8-1 10 1 3.2-2 6.7-2.2 10-1v13.7c-3.3-1.2-6.8-1-10 1-3.2-2-6.7-2.2-10-1z"/><path d="M12 6.5v13.7"/>
+        <path d="M4.8 9.2c1.6-.3 3.3-.1 4.7.6M4.8 12.4c1.6-.3 3.3-.1 4.7.6M19.2 9.2c-1.6-.3-3.3-.1-4.7.6M19.2 12.4c-1.6-.3-3.3-.1-4.7.6" stroke-width="1.4" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="ic-columns" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2.8 9.2 12 3.5l9.2 5.7z" fill="currentColor"/><path d="M5 19h14M3.5 21.5h17"/><path d="M6.3 11.5v5.5M10.1 11.5v5.5M13.9 11.5v5.5M17.7 11.5v5.5"/>
+      </symbol>
+      <symbol id="ic-brain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5.2A3 3 0 0 0 6.6 4a3 3 0 0 0-2.3 4.4 3.1 3.1 0 0 0 0 5.5 3.2 3.2 0 0 0 3.1 4.8A3 3 0 0 0 12 20z"/>
+        <path d="M12 5.2A3 3 0 0 1 17.4 4a3 3 0 0 1 2.3 4.4 3.1 3.1 0 0 1 0 5.5 3.2 3.2 0 0 1-3.1 4.8A3 3 0 0 1 12 20z"/>
+        <path d="M12 5.2V20M8 9.4c1.2 0 2.2.8 2.3 2M16 9.4c-1.2 0-2.2.8-2.3 2M7.6 14.6c1.2 0 2.1.7 2.3 1.8M16.4 14.6c-1.2 0-2.1.7-2.3 1.8"/>
+      </symbol>
+      <symbol id="ic-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+        <path d="M1.8 12S5.4 5.4 12 5.4 22.2 12 22.2 12 18.6 18.6 12 18.6 1.8 12 1.8 12z"/><circle cx="12" cy="12" r="3.4" fill="currentColor"/>
+      </symbol>
+      <symbol id="ic-run" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="15.6" cy="4" r="2.2" fill="currentColor" stroke="none"/>
+        <path d="M7.5 9 11.3 7l3.4 2.4 2.3 2.9h3"/><path d="M11.3 7 9.6 12.6l3.9 2.6-1.4 6"/><path d="M9.6 12.6 7.4 16.4H3.5"/>
+      </symbol>
+      <symbol id="ic-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 18.3h6M10 21.3h4"/><path d="M12 2.7a6.3 6.3 0 0 0-3.8 11.4c.7.6 1 1.4 1 2.3v.4h5.6v-.4c0-.9.3-1.7 1-2.3A6.3 6.3 0 0 0 12 2.7z"/>
+        <path d="M12 7.2c-1 1.2-1.6 2.2-1.6 3.1a1.6 1.6 0 0 0 3.2 0c0-.9-.6-1.9-1.6-3.1z" fill="currentColor" stroke="none"/>
+      </symbol>
+      <symbol id="ic-diya" viewBox="0 0 24 24">
+        <path d="M2.2 12.6h19.6c-.9 4.4-4.8 7.2-9.8 7.2s-8.9-2.8-9.8-7.2z" fill="currentColor"/>
+        <path d="M12 2.6c2.3 2.7 2.5 5 0 7.4-2.5-2.4-2.3-4.7 0-7.4z" fill="#ffd36b"/>
+        <path d="M7 15.2c3.2.9 6.8.9 10 0" fill="none" stroke="#000" stroke-opacity=".25" stroke-width="1.2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="ic-people" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="12" cy="7.2" r="3"/><path d="M6.6 20.6a5.4 5.4 0 0 1 10.8 0z"/>
+        <circle cx="5" cy="9.4" r="2.3"/><path d="M.6 19.2a4.4 4.4 0 0 1 6.9-3.6 7 7 0 0 0-2 3.6z"/>
+        <circle cx="19" cy="9.4" r="2.3"/><path d="M23.4 19.2a4.4 4.4 0 0 0-6.9-3.6 7 7 0 0 1 2 3.6z"/>
+      </symbol>
+      <symbol id="ic-forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3.5 12h15"/><path d="M13 5.5 19.5 12 13 18.5"/>
+      </symbol>
+      <symbol id="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.5 12h-15"/><path d="M11 5.5 4.5 12l6.5 6.5"/>
+      </symbol>
+      <symbol id="ic-lotus" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 3c2 2.4 3 5.2 2.5 8.4-.4 2.2-1.2 3.8-2.5 5-1.3-1.2-2.1-2.8-2.5-5C9 8.2 10 5.4 12 3z"/>
+        <path d="M2.6 8.6c3.3.2 6.1 1.8 7.6 4.6.5 1 .9 2.1 1 3.3-1.8.2-3.7-.2-5.3-1.3-1.9-1.6-3.1-4-3.3-6.6z"/>
+        <path d="M21.4 8.6c-3.3.2-6.1 1.8-7.6 4.6-.5 1-.9 2.1-1 3.3 1.8.2 3.7-.2 5.3-1.3 1.9-1.6 3.1-4 3.3-6.6z"/>
+        <path d="M2 17.4c2.8-.9 6.2-.7 10 1.3 3.8-2 7.2-2.2 10-1.3-2.4 2.5-6 3.6-10 3.6s-7.6-1.1-10-3.6z"/>
+      </symbol>
+      <symbol id="ic-storm" viewBox="0 0 24 24">
+        <path d="M6.8 16.4h10.4a4.1 4.1 0 0 0 .6-8.2A5.6 5.6 0 0 0 7 9.1a3.7 3.7 0 0 0-.2 7.3z" fill="currentColor"/>
+        <path d="M13.2 12.6 10.4 17h3l-2 4.4" fill="none" stroke="#ffd54f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+      <symbol id="ic-flame" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.2c.8 3.6 5.8 5.8 5.8 11.4a5.8 5.8 0 0 1-11.6 0c0-2.8 1.4-4.6 2.8-6 .2 2.4 1.4 3.8 2.7 4.1-.8-3-.5-6.4.3-9.5z"/>
+        <path d="M12 21.2a2.9 2.9 0 0 1-2.9-2.9c0-1.6 1-2.6 2-3.6.3 1.2.9 1.8 1.7 1.9.2-1 .1-1.6.2-2.7 1.2 1.3 1.9 2.6 1.9 4.4a2.9 2.9 0 0 1-2.9 2.9z" fill="#fff2b3"/>
+      </symbol>
+      <symbol id="ic-leaf" viewBox="0 0 24 24">
+        <path d="M4.5 19.5C4.5 10 10.5 4 20 4c0 9.5-6 15.5-15.5 15.5z" fill="currentColor"/>
+        <path d="M4.5 19.5 14 10" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="ic-emblem" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 1.8 14.6 8.4 21.6 9 16.3 13.6 17.9 20.6 12 16.9 6.1 20.6 7.7 13.6 2.4 9 9.4 8.4z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div id="viewport" class="viewport">
+    <div id="stage" class="stage">
+
+      <section class="board-wrap" aria-label="Game board">
+        <svg id="board" class="board" role="img" aria-label="Dhara Rakshak board: a winding path through eight realms from START to FINISH"></svg>
+      </section>
+
+      <aside id="panel" class="panel" aria-label="Game console">
+        <div class="panel-head">
+          <div class="panel-ribbon">Game Console</div>
+          <nav class="tabs" role="tablist" aria-label="Panel sections">
+            <button class="tab-btn active" role="tab" aria-selected="true" data-tab="play">Play</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="rules">Rules</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="spaces">Spaces</button>
+          </nav>
+        </div>
+
+        <section class="tab-pane pane-play" data-pane="play" role="tabpanel">
+          <div id="turnCard" class="turn-card"></div>
+          <div id="actions" class="actions"></div>
+          <div id="status" class="status" aria-live="polite"></div>
+          <h3 class="pane-sub">Journey Log</h3>
+          <ol id="log" class="log"></ol>
+        </section>
+
+        <section class="tab-pane pane-rules" data-pane="rules" role="tabpanel" hidden>
+          <div class="rule-block"><h4><span class="num n1">1</span>Objective</h4>
+            <p>Become a <b>Dhara Rakshak</b> (Earth Guardian). Travel through the eight realms, solve interdisciplinary challenges, collect <b>Shakti Tokens</b> and complete the <b>Grand Green Challenge</b> at FINISH. The qualifying player with the most Shakti Tokens wins.</p></div>
+          <div class="rule-block"><h4><span class="num n2">2</span>Players</h4>
+            <p>2–6 players or teams · age 8+ · 45–60 minutes. Everyone starts on START with <b>5 Shakti Tokens</b>, no Karma markers and no Emblems. The next player in turn order is the <b>Game Keeper</b>: they read cards aloud and judge open tasks.</p></div>
+          <div class="rule-block"><h4><span class="num n3">3</span>How to play</h4>
+            <ol>
+              <li>Roll the die (click it) and move forward.</li>
+              <li>Resolve the space you land on — usually a challenge card with <b>30 seconds</b> to answer.</li>
+              <li>Correct answer: <b>2 Shakti Tokens</b>. A practical environmental solution earns <b>+1 bonus</b> (max 3 per ordinary challenge).</li>
+              <li>A wrong answer earns nothing; it carries a penalty only when the space says so.</li>
+              <li>Spaces reached by a shortcut, setback or reward move are <b>not</b> activated.</li>
+              <li>Press <b>Next player</b> to pass the turn.</li>
+            </ol></div>
+          <div class="rule-block"><h4><span class="num n4">4</span>Karma</h4>
+            <p>If you cannot pay a penalty, surrender what you have and take a <b>Karma marker</b>. Tokens never go below zero. While carrying Karma you cannot attempt a Tapasya or Mahashakti challenge — and you cannot win.</p>
+            <p>Clear <b>one</b> marker per turn, before rolling: answer a recovery challenge (no reward; a wrong answer ends your turn), pay 3 tokens, or choose removal on a Divine Grace space.</p></div>
+          <div class="rule-block"><h4><span class="num n5">5</span>Tapasya Trial</h4>
+            <p>On a Tapasya Portal, with 3+ tokens and no Karma, you may wager <b>3 tokens</b> on three stages in <b>2 minutes</b>. Success: <b>8 tokens</b> and 3 spaces forward. Failure: the wager is lost, 3 spaces back and one Karma marker.</p></div>
+          <div class="rule-block"><h4><span class="num n6">6</span>Mahashakti Challenge</h4>
+            <p>Three rare portals, each usable <b>once</b>. Land exactly, hold 6+ tokens and no Karma, and declare before seeing the card. Wager <b>4 tokens</b> on five stages — Gyaan, Vigyaan, Vaani, Dharma, Ekagrata — in <b>3 minutes</b>.</p>
+            <p>Success: <b>12 tokens</b>, 6 spaces forward and a <b>Mahashakti Emblem</b>. Failure: the wager is lost, 4 spaces back and one Karma marker. An Emblem cancels one future movement setback — never a token loss, Karma, or a failed high-risk challenge.</p></div>
+          <div class="rule-block"><h4><span class="num n7">7</span>Dhara Rules &amp; the Grand Green Challenge</h4>
+            <p>The first time anyone enters a realm, a waste-management <b>Dhara Rule</b> is revealed. Remember them!</p>
+            <p>At FINISH, face seven stages: Mathematics, Science, English, Hindi, Social Science, Memory (recall the Dhara Rules) and a Creative Action. Pass <b>4 of 5</b> subjects plus both tasks to qualify and earn <b>5 bonus tokens</b>. If you fail, stay at FINISH and try again next turn.</p></div>
+          <div class="rule-block"><h4><span class="num n8">8</span>Winning</h4>
+            <p>When the first player qualifies, the round is completed so everyone has had an equal number of turns. Outstanding Karma must be cleared before the final count. The qualified player without Karma and with the most Shakti Tokens wins; ties are settled by a sudden-death question.</p></div>
+          <blockquote class="motto">Knowledge gives us power. Wisdom guides our choices. Responsibility protects our planet.</blockquote>
+        </section>
+
+        <section class="tab-pane pane-spaces" data-pane="spaces" role="tabpanel" hidden>
+          <ul id="legend" class="legend"></ul>
+        </section>
+
+        <div class="panel-foot">
+          <button id="newGameBtn" class="btn btn-link">New game</button>
+          <span id="saveNote" class="save-note">Progress saves automatically in this browser.</span>
+        </div>
+      </aside>
+
+      <section id="tray" class="tray" aria-label="Game components">
+        <div class="tbox box-decks">
+          <div class="ribbon">Subject Challenge Cards (8 Decks)</div>
+          <div id="deckRow" class="deck-row"></div>
+        </div>
+        <div class="tbox box-players">
+          <div class="ribbon">Player Tokens</div>
+          <div id="playerRow" class="player-row"></div>
+        </div>
+        <div class="tray-row2">
+          <div class="tbox box-shakti">
+            <div class="ribbon">Shakti Tokens</div>
+            <div id="shaktiView" class="piece-view"></div>
+          </div>
+          <div class="tbox box-karma">
+            <div class="ribbon">Karma Markers</div>
+            <div id="karmaView" class="piece-view"></div>
+          </div>
+          <div class="tbox box-dice">
+            <div class="ribbon">Dice</div>
+            <button id="die" class="die" data-v="5" aria-label="Roll the die" disabled>
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </button>
+            <div id="dieHint" class="die-hint">recycled</div>
+          </div>
+          <div class="tbox box-portals">
+            <div class="ribbon">Portals</div>
+            <div id="portalView" class="portal-view"></div>
+          </div>
+          <div class="tbox box-victory">
+            <div class="ribbon">The Real Victory</div>
+            <div class="victory">
+              <svg class="ic victory-leaf" aria-hidden="true"><use href="#ic-leaf"></use></svg>
+              <p>Use your knowledge, wisdom and actions to protect nature. Every small step makes a big difference!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <div id="modalRoot"></div>
+  <div id="toastRoot" class="toasts" aria-live="polite"></div>
+
+  <script src="js/board.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/challenges.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
